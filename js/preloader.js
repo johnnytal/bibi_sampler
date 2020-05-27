@@ -31,9 +31,9 @@ preloader.prototype = {
         this.game.load.audio('bibi10', 'assets/bibi/audio/kadentsia.mp3');
         this.game.load.audio('bibi11', 'assets/bibi/audio/yekablu.mp3');
         
-        this.game.load.audio('musicSfx', 'assets/bibi/audio/music1.ogg');
-        this.game.load.audio('musicSfx2', 'assets/bibi/audio/music2.ogg');
-        this.game.load.audio('musicSfx3', 'assets/bibi/audio/music3.ogg');
+        this.game.load.audio('musicSfx', 'assets/bibi/audio/music1.mp3');
+        this.game.load.audio('musicSfx2', 'assets/bibi/audio/music2.mp3');
+        this.game.load.audio('musicSfx3', 'assets/bibi/audio/music3.mp3');
     },
     
     create: function(){
