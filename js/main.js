@@ -58,7 +58,7 @@ gameMain.prototype = {
 	        } catch(e){}   
 		}, 2000);
 		
-		//initAd();
+		initAd();
     }, 
     update: function(){	
 		for (x=0; x<keyNotesArray.length; x++){
@@ -71,7 +71,6 @@ gameMain.prototype = {
 	            sounds[x].stop();
 			}
 		}
-    
     }
 };
 
