@@ -56,7 +56,7 @@ gameMain.prototype = {
 	        try{
 	            window.plugins.insomnia.keepAwake();
 	        } catch(e){}   
-		}, 2000);
+		}, 1000);
 		
 		initAd();
     }, 
@@ -215,7 +215,7 @@ function openOptions(_this){
                 }
             },
             
-            { type: "image", content: "ok", offsetY: 100, offsetX: 300, contentScale: 0.75,
+            { type: "image", content: "ok", offsetY: 100, offsetX: 300,
                 callback: function () {
                     modal.hideModal('options');
                     _this.inputEnabled = true;
@@ -302,7 +302,6 @@ function createMusicBtns(){
     	musicButtons[m] = musicBtnsGroup.create(15 + (280 * m), 960, 'musicBtn');
     	musicButtons[m].alpha = 0.87;
     	musicButtons[m].inputEnabled = true;
-    	musicButtons[m].scale.set(1, 0.8);
 
     	musicButtons[m].events.onInputDown.add(playMusic, this);        
     }
